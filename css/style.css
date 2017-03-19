@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f7f7f7;
+}
+header {
+	background: #e4e4e4;
+	height: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+header span {
+	font-size: 40px;
+	font-weight: 900;
+	padding-top: 20px;
+	display: inline-block;
+	color: #4e4e4e;
+}
+.menu {
+	float: right;
+	padding-top: 40px;
+}
+.menu li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.menu li a {
+	font-family: Arial;
+	color: #4e4e4e;
+	text-decoration: none;
+	font-weight: 600;
+}
+.menu li a:hover {
+	color: #1abb9c;
+}
+.slider {
+	height: 500px;
+	background-image: url("../img/bg.jpg");
+	background-size: cover
+}
+.slider h1 {
+	text-align: center;
+	color: #f3f3f3;
+	padding-top: 160px;
+}
+.slider h2 {
+	text-align: center;
+	color: #a8a8a8;
+	padding-top: 30px;
+}
+.button {
+	text-align: center;
+	padding-top: 30px;
+}
+.slider a {
+	display: inline-block;
+	padding-top: 17px;
+	height: 35px;
+	width: 170px;
+	text-decoration: none;
+	color: #a59477;
+	border-radius: 5px;
+	background: #3f8dbf;
+	color: #fff;
+	border-bottom: 4px solid #3678a3;
+}
+.service {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #dcdcdc;
+}
+.service h3 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.serviceItem {
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #4e4e4e;
+}
+.works {
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #4e4e4e;
+}
+.worksItem {
+	width: 25%;
+	height: 350px;
+	display: inline-block;
+	overflow: hidden;
+}
+.description {
+	padding-bottom: 13px;
+	color: #a8a8a8;
+	font-size: 14px;
+}
+.quote {
+	height: 200px;
+	background: #efefef;
+}
+.quotes {
+	font-size: 100px;
+	color: #dcdcdc;
+	text-align: center;
+	font-weight: 900;
+	padding-top: 30px;
+}
+.quoteText {
+	font-size: 20px;
+	color: #a1a1a1;
+	text-align: center;
+}
+footer {
+	height: 350px;
+	background: #1e1e1e;
+	border-top: 9px solid #161616;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	color: #cacaca;
+}
+footer h3 {
+	color: #6c6c6c;
+}
+footer img {
+	padding-right: 5px;
+}
+footer p {
+	padding-top: 20px;
+}
+.getInTouch {
+	padding-top: 0px;
+}
+.footerItem {
+	width: 20%;
+	height: 250px;
+	display: inline-block;
+	padding-right: 20px;
+	overflow: hidden;
+}
+.date {
+	padding-top: 5px;
+	font-size: 14px;
+}
+.copyright {
+	border-top: 2px solid #3a3a3a;
+	padding-top: 20px;
+}
